@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+
+</head>
+<body>
+    <style>
+        @font-face {
+ font-family: 'Rhodium Libre';
+ src: url(RhodiumLibre-Regular.ttf);
+}
+        .container {
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+        }
+      
+        .header {
+          background-color: #edcb99;
+          display: flex;
+          width: 100%;
+          gap: 20px;
+          font-size: 32px;
+          color: #000;
+          font-weight: 400;
+          text-align: center;
+          line-height: 234%;
+          justify-content: space-between;
+          padding: 7px 21px;
+          
+        }
+      
+        @media (max-width: 991px) {
+          .header {
+            flex-wrap: wrap;
+            padding: 0 20px;
+            
+          }
+        }
+      
+        .logo {
+          aspect-ratio: 0.88;
+          object-fit: auto;
+          object-position: center;
+          width: 108px;
+          max-width: 100%;
+        }
+
+    
+      
+        .nav {
+          display: flex;
+          gap: 20px;
+          justify-content: space-between;
+          margin: auto 0;
+          color: #000;
+    text-decoration: none;
+        }
+      
+        @media (max-width: 991px) {
+          .nav {
+            flex-wrap: wrap;
+            
+          }
+        }
+      
+        .nav-item {
+          font-family: Rhodium Libre, sans-serif;
+          padding: 26px 2px;
+          color: #000;
+    text-decoration: none;
+        }
+        .nav-link {
+          font-family: Rhodium Libre, sans-serif;
+          justify-content: center;
+          padding: 26px 2px;
+          color: #000;
+    text-decoration: none;
+        }
+      
+        .section-title {
+          color: #000;
+          text-align: center;
+          align-self: center;
+          margin-top: 107px;
+          font: 400 48px/156% Rhodium Libre, -apple-system, Roboto, Helvetica, sans-serif;
+          
+        }
+      
+        @media (max-width: 991px) {
+          .section-title {
+            margin-top: 40px;
+            font-size: 40px;
+            
+          }
+        }
+      
+        .product-grid {
+          align-self: center;
+          margin-top: 100px;
+          width: 100%;
+          max-width: 1318px;
+          padding: 0 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .product-grid {
+            margin-top: 40px;
+          }
+        }
+      
+        .product-row {
+          gap: 20px;
+          display: flex;
+        }
+      
+        @media (max-width: 991px) {
+          .product-row {
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+          }
+        }
+      
+        .product-col {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          align-items: center;
+          width: 33%;
+          margin-left: 20px;
+        }
+      
+        .product-col:first-child {
+          margin-left: 0;
+        }
+      
+        @media (max-width: 991px) {
+          .product-col {
+            width: 100%;
+            margin-left: 0;
+          }
+        }
+      
+        .product-img {
+          aspect-ratio: 0.88;
+          object-fit: auto;
+          object-position: center;
+          width: 100%;
+          flex-grow: 1;
+        }
+      
+        @media (max-width: 991px) {
+          .product-img {
+            margin-top: 40px;
+          }
+        }
+      
+        .footer-img {
+          aspect-ratio: 10;
+          object-fit: auto;
+          object-position: center;
+          width: 100%;
+          margin-top: 75px;
+        }
+      
+        @media (max-width: 991px) {
+          .footer-img {
+            margin-top: 40px;
+          }
+        }
+      </style>
+      
+      <div class="container">
+        <header class="header">
+            <a href="index.html"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b1220bfc417cdeebb7a8429fbd01e106eb68ef71fd74d56480d415c2db5b8c0?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Company Logo" /></a>
+          <nav class="nav">
+            <a href="pictures.html" class="nav-item">PICTURES</a>
+            <a href="shop.html" class="nav-item">SHOP</a>
+            <a href="contact.html" class="nav-item">CONTACT</a>
+          </nav>
+        </header>
+        
+        <h1 class="section-title">MERCH SHOP</h1>
+        
+        <section class="product-grid">
+          <div class="product-row">
+            <div class="product-col">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/9db1e7ed5405746046f4d9f713a272815a12dae28978045a6345771d78b53871?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Product 1" class="product-img" />
+            </div>
+            <div class="product-col">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f51a766e10cb05b678d05f0be43f1c4409143d0a49930881e040a36f3e2df0f?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Product 2" class="product-img" />
+            </div>
+            <div class="product-col">
+              <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/f9c1d8dab6ec58d84241a7fa22233681a97ef298deb7c7ad807c63e4e91d0a5f?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Product 3" class="product-img" />
+            </div>
+          </div>
+        </section>
+        
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/d613f169-6c2a-4768-a786-d4aa0e08551c?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Footer" class="footer-img" />
+      </div>
+</body>
+</html>

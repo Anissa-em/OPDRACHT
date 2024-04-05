@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>``
+
+</head>
+<body>
+    <style>
+        @font-face {
+ font-family: 'Rhodium Libre';
+ src: url(RhodiumLibre-Regular.ttf);
+}
+        .contact-page {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background-color: #fff;
+          font-weight: 400;
+        }
+      
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 7px 21px;
+          background-color: #edcb99;
+          color: #000;
+          font-size: 32px;
+          line-height: 234%;
+          text-align: center;
+          white-space: nowrap;
+          width: 100%;
+          gap: 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .header {
+            flex-wrap: wrap;
+            max-width: 100%;
+            padding: 0 20px;
+            white-space: initial;
+          }
+        }
+      
+        .logo {
+          width: 108px;
+          max-width: 100%;
+          aspect-ratio: 0.88;
+          object-fit: auto;
+          object-position: center;
+        }
+      
+        .nav-links {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: auto 0;
+          gap: 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .nav-links {
+            flex-wrap: wrap;
+            max-width: 100%;
+            white-space: initial;
+          }
+        }
+      
+        .nav-link {
+          padding: 26px 2px;
+          font-family: Rhodium Libre, sans-serif;
+          justify-content: center;
+        }
+      
+        @media (max-width: 991px) {
+          .nav-link {
+            white-space: initial;
+          }
+        }
+
+        .nav-item {
+          font-family: Rhodium Libre, sans-serif;
+          padding: 26px 2px;
+          color: #000;
+    text-decoration: none;
+        }
+      
+        .contact-form-container {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          align-self: center;
+          width: 660px;
+          max-width: 100%;
+          margin-top: 75px;
+          padding: 77px 62px;
+          background-color: #7a5f36;
+          color: #fff;
+          font-size: 36px;
+          line-height: 33px;
+        }
+      
+        @media (max-width: 991px) {
+          .contact-form-container {
+            margin-top: 40px;
+            padding: 0 20px;
+          }
+        }
+      
+        .contact-form-title {
+          align-self: center;
+          font-family: Rhodium Libre, sans-serif;
+          line-height: 208%;
+          text-align: center;
+        }
+      
+        .contact-form-field {
+          margin-top: 46px;
+          font-family: Rhodium Libre, sans-serif;
+        }
+      
+        @media (max-width: 991px) {
+          .contact-form-field {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+      
+        .contact-form-question {
+            
+          align-self: stretch;
+          margin: 46px 0 6px;
+          font-family: Rhodium Libre, sans-serif;
+        }
+      
+        @media (max-width: 991px) {
+          .contact-form-question {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+      
+        .footer {
+          width: 100%;
+          min-height: 64px;
+          margin-top: 75px;
+          background-color: #c2a376;
+        }
+      
+        @media (max-width: 991px) {
+          .footer {
+            max-width: 100%;
+            margin-top: 40px;
+          }
+        }
+      </style>
+      
+      <main class="contact-page">
+        <header class="header">
+            <a href="index.html"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b1220bfc417cdeebb7a8429fbd01e106eb68ef71fd74d56480d415c2db5b8c0?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Company Logo" /></a>
+          <nav class="nav-links">
+            <a href="pictures.html" class="nav-item">PICTURES</a>
+            <a href="shop.html" class="nav-item">SHOP</a>
+            <a href="contact.html" class="nav-item">CONTACT</a>
+          </nav>
+        </header>
+        
+        <section class="contact-form-container">
+          <h1 class="contact-form-title">CONTACT US</h1>
+          <form>
+            <label for="name" class="visually-hidden">Name</label>
+            <input type="text" id="name" class="contact-form-field" placeholder="Name" aria-label="Name" />
+          
+            <label for="email" class="visually-hidden">E-Mail</label>
+            <input type="email" id="email" class="contact-form-field" placeholder="E-Mail" aria-label="E-Mail" />
+            
+            <label for="phone" class="visually-hidden">Phone Number</label>
+            <input type="tel" id="phone" class="contact-form-field" placeholder="Phone Number" aria-label="Phone Number" />
+            
+            <label for="question" class="visually-hidden">Question</label>
+            <textarea id="question" class="contact-form-question" placeholder="Question" aria-label="Question"></textarea>
+          </form>
+        </section>
+        
+        <footer class="footer"></footer>
+      </main>
+</body>
+</html>

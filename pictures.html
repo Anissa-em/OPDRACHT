@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICTURES</title>
+
+</head>
+<body>
+    <style>
+        @font-face {
+ font-family: 'Rhodium Libre';
+ src: url(RhodiumLibre-Regular.ttf);
+}
+        .container {
+          background-color: #fff;
+          display: flex;
+          flex-direction: column;
+        }
+      
+        .header {
+          background-color: #edcb99;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 7px 21px;
+          font-size: 32px;
+          color: #000;
+          font-weight: 400;
+        }
+      
+        @media (max-width: 991px) {
+          .header {
+            flex-wrap: wrap;
+            padding: 0 20px;
+          }
+        }
+      
+        .logo {
+          width: 108px;
+        }
+      
+        .logo img {
+          width: 100%;
+          height: auto;
+        }
+      
+        .navigation {
+          display: flex;
+          gap: 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .navigation {
+            flex-wrap: wrap;
+          }
+        }
+      
+        .nav-item {
+          font-family: Rhodium Libre, sans-serif;
+          padding: 26px 2px;
+          color: #000;
+    text-decoration: none;
+        }
+      
+        .main-content {
+          align-self: center;
+          margin-top: 61px;
+          max-width: 1314px;
+          width: 100%;
+        }
+      
+        @media (max-width: 991px) {
+          .main-content {
+            margin-top: 40px;
+          }
+        }
+      
+        .image-grid {
+          display: flex;
+          gap: 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .image-grid {
+            flex-direction: column;
+            gap: 0;
+          }
+        }
+      
+        .image-column {
+          display: flex;
+          flex-direction: column;
+          width: 27%;
+        }
+      
+        @media (max-width: 991px) {
+          .image-column {
+            width: 100%;
+          }
+        }
+      
+        .image-wrapper {
+          display: flex;
+          flex-direction: column;
+          flex-grow: 1;
+        }
+      
+        @media (max-width: 991px) {
+          .image-wrapper {
+            margin-top: 40px;
+          }
+        }
+      
+        .image-wrapper img {
+          width: 100%;
+          height: auto;
+        }
+      
+        .image-wrapper .tall-image {
+          margin-top: 36px;
+        }
+      
+        .content-column {
+          display: flex;
+          flex-direction: column;
+          width: 73%;
+          margin-left: 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .content-column {
+            width: 100%;
+          }
+        }
+      
+        .content-wrapper {
+          display: flex;
+          flex-direction: column;
+        }
+      
+        @media (max-width: 991px) {
+          .content-wrapper {
+            margin-top: 40px;
+          }
+        }
+      
+        .image-row {
+          display: flex;
+          gap: 20px;
+        }
+      
+        @media (max-width: 991px) {
+          .image-row {
+            flex-direction: column;
+            gap: 0;
+          }
+        }
+      
+        .image-row .image-column {
+          width: 57%;
+        }
+      
+        @media (max-width: 991px) {
+          .image-row .image-column {
+            width: 100%;
+          }
+        }
+      
+        .image-row .content-column {
+          width: 43%;
+        }
+      
+        @media (max-width: 991px) {
+          .image-row .content-column {
+            width: 100%;
+          }
+        }
+      
+        .image-row .content-column img {
+          margin-top: 17px;
+        }
+      
+        .footer {
+          background-color: rgba(194, 163, 118, 1);
+          min-height: 64px;
+          margin-top: 47px;
+          width: 100%;
+        }
+      
+        @media (max-width: 991px) {
+          .footer {
+            margin-top: 40px;
+          }
+        }
+      </style>
+      
+      <div class="container">
+        <header class="header">
+          <div class="logo">
+            <a href="index.html"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b1220bfc417cdeebb7a8429fbd01e106eb68ef71fd74d56480d415c2db5b8c0?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Company Logo" /></a>
+          </div>
+          <nav class="navigation">
+            <a href="pictures.html" class="nav-item">PICTURES</a>
+      <a href="shop.html" class="nav-item">SHOP</a>
+      <a href="contact.html" class="nav-item">CONTACT</a>
+          </nav>
+        </header>
+        
+        <main class="main-content">
+          <div class="image-grid">
+            <div class="image-column">
+              <div class="image-wrapper">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/79a87a97a08d6aae79c657de633f86f0c93e773b9f13ca1163d75f24c245f019?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Decorative Image" />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1c18c79324241cd1bd9a9ae0f319e34ebba2c16770739f98c2d05969b92e1ced?apiKey=e8d4e9228d004bdf98012a910bcbce96&" class="tall-image" alt="Decorative Image" />
+              </div>
+            </div>
+            <div class="content-column">
+              <div class="content-wrapper">
+                <div class="image-row">
+                  <div class="image-column">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/95348dab56a6bd78970553533cd932fa4fbf08dd31776f254463012d809b9206?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Decorative Image" />
+                  </div>
+                  <div class="content-column">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/45152f808c8ce1737dd9093858dc5fd28b916e39a2088f2ccd65ecb9a74865fa?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Decorative Image" />
+                  </div>
+                </div>
+                <div class="image-row">
+                  <div class="image-column">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/311c859e3bb4ff6de723ec9a889b4ae5057aae5ff77c8e3aa622bf42f43d6248?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Decorative Image" />
+                  </div>
+                  <div class="content-column">
+                    <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a1c5e673cf2ea04917b9b7c57beec071c0c8d398d24d91db338949b8fdbe4f2a?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Decorative Image" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        
+        <footer class="footer"></footer>
+      </div>
+</body>
+</html>

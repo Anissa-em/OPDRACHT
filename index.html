@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+  
+    
+</head>
+<body>
+    <style>
+@font-face {
+ font-family: 'Rhodium Libre';
+ src: url(RhodiumLibre-Regular.ttf);
+}
+
+  .container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header {
+    background-color: #edcb99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    gap: 20px;
+    font-size: 32px;
+    color: #000;
+    font-family: Rhodium Libre;
+    font-weight: 400;
+    text-align: center;
+    line-height: 75px;
+  }
+
+  @media (max-width: 991px) {
+    .header {
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+
+  .logo {
+    width: 108px;
+    aspect-ratio: 0.88;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: auto 0;
+    font-family: Rhodium Libre;
+    color: #000;
+    text-decoration: none;
+  }
+
+  @media (max-width: 991px) {
+    .nav {
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+
+  .nav-item {
+    font-family: Rhodium Libre;
+    text-decoration: none;
+    color: black;
+  }
+
+  .title {
+    color: #000;
+    text-align: center;
+    align-self: center;
+    margin-top: 91px;
+    font: 400 48px/156% Rhodium Libre;
+  }
+
+  @media (max-width: 991px) {
+    .title {
+      margin-top: 40px;
+      font-size: 40px;
+    }
+  }
+
+  .image-grid {
+    align-self: center;
+    margin-top: 118px;
+    width: 100%;
+    max-width: 1143px;
+  }
+
+  @media (max-width: 991px) {
+    .image-grid {
+      margin-top: 40px;
+    }
+  }
+
+  .image-row {
+    display: flex;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .image-row {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+
+  .image-col-left {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 35%;
+    margin-left: 0;
+  }
+
+  @media (max-width: 991px) {
+    .image-col-left {
+      width: 100%;
+    }
+  }
+
+  .image-left {
+    width: 100%;
+    aspect-ratio: 0.75;
+    object-fit: cover;
+    object-position: center;
+    flex-grow: 1;
+  }
+
+  @media (max-width: 991px) {
+    .image-left {
+      margin-top: 40px;
+    }
+  }
+
+  .image-col-right {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 65%;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .image-col-right {
+      width: 100%;
+    }
+  }
+
+  .image-right {
+    width: 100%;
+    aspect-ratio: 1.49;
+    object-fit: cover;
+    object-position: center;
+    flex-grow: 1;
+  }
+
+  @media (max-width: 991px) {
+    .image-right {
+      margin-top: 40px;
+    }
+  }
+
+  .footer {
+    background-color: #c2a376;
+    min-height: 64px;
+    margin-top: 119px;
+    width: 100%;
+  }
+
+  @media (max-width: 991px) {
+    .footer {
+      margin-top: 40px;
+    }
+  }
+</style>
+
+<div class="container">
+  <header class="header">
+    <a href="index.html"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2b1220bfc417cdeebb7a8429fbd01e106eb68ef71fd74d56480d415c2db5b8c0?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Company Logo" /></a>
+    <nav class="nav">
+      <a href="pictures.html" class="nav-item">PICTURES</a>
+      <a href="shop.html" class="nav-item">SHOP</a>
+      <a href="contact.html" class="nav-item">CONTACT</a>
+    </nav>
+  </header>
+  
+  <h1 class="title">COWS WITH COWBOY HATS</h1>
+  
+  <section class="image-grid">
+    <div class="image-row">
+      <div class="image-col-left">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b4883fab1b1d19435ef57ee76ee3232060a21e73be359c2cdc7fa8665d0139cd?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Left image" class="image-left" />
+      </div>
+      <div class="image-col-right">
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ea3f36de11dd949fcc3377086bf6bac97dc58a52cf16a949175af9f41baafbf7?apiKey=e8d4e9228d004bdf98012a910bcbce96&" alt="Right image" class="image-right" />
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer"></footer>
+</div>
+</body>
+</html>
